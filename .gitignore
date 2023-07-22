@@ -1,0 +1,11 @@
+*
+
+!.gitignore
+!.vimrc
+
+!.config/
+!.config/nvim
+!.config/nvim/init.vim
+
+# Scripts
+!init_me.sh

@@ -5,7 +5,8 @@
 
 !.config/
 !.config/nvim
-!.config/nvim/init.vim
+!.config/nvim/*
+!.config/nvim/**/*
 
 # Scripts
 !init_me.sh
@@ -13,6 +14,7 @@
 # Terminal
 !.config/alacritty
 !.config/alacritty/alacritty.yml
+.config/nvim/plugin/packer_compiled.lua
 
 # Theme
 !.config/spaceship

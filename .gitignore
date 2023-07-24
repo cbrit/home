@@ -9,3 +9,11 @@
 
 # Scripts
 !init_me.sh
+
+# Terminal
+!.config/alacritty
+!.config/alacritty/alacritty.yml
+
+# Theme
+!.config/spaceship
+!.config/spaceship/spaceship.zsh

@@ -1,4 +1,5 @@
 vim.g.mapleader = ","
+vim.opt.autochdir = true
 vim.opt.guicursor = ""
 
 vim.opt.nu = true
@@ -49,4 +50,3 @@ vim.cmd([[
 set signcolumn=yes
 autocmd CursorHold * lua vim.diagnostic.open_float(nil, { focusable = false })
 ]])
-

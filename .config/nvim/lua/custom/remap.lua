@@ -1,1 +1,6 @@
 vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>o", ":new<CR>")
+vim.keymap.set("n", "<leader>nf", ":edit %:h/")
+vim.keymap.set("n", "<leader>y", "\"+y")
+vim.keymap.set("v", "<leader>y", "\"+y")
+vim.keymap.set("n", "<leader>Y", "\"+Y")

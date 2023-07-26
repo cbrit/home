@@ -13,3 +13,15 @@ vim.keymap.set("n", "k", "kzz")
 vim.keymap.set("n", "j", "jzz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
+
+-- Goto next/prev diagnostic (for fixing errors)
+vim.keymap.set("n", "<leader>,",
+    function()
+        vim.diagnostic.goto_next({ wrap = true })
+    end
+)
+vim.keymap.set("n", "<leader>.",
+    function()
+        vim.diagnostic.goto_prev({ wrap = true })
+    end
+)

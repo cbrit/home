@@ -4,3 +4,12 @@ vim.keymap.set("n", "<leader>nf", ":edit %:h/")
 vim.keymap.set("n", "<leader>y", "\"+y")
 vim.keymap.set("v", "<leader>y", "\"+y")
 vim.keymap.set("n", "<leader>Y", "\"+Y")
+vim.keymap.set("n", "<leader>d", "\"+d")
+vim.keymap.set("v", "<leader>d", "\"+d")
+vim.keymap.set("n", "<leader>D", "\"+D")
+
+-- Keep cursor vertically centered when moving up and down
+vim.keymap.set("n", "k", "kzz")
+vim.keymap.set("n", "j", "jzz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "<C-d>", "<C-d>zz")

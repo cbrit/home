@@ -24,13 +24,15 @@ vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 
+vim.opt.scroll = 5
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-vim.opt.colorcolumn = "60"
+vim.opt.colorcolumn = ""
+
 --Set completeopt to have a better completion experience
 -- :help completeopt
 -- menuone: popup even when there's only one match

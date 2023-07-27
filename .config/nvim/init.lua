@@ -11,6 +11,9 @@ rt.setup({
       vim.keymap.set("n", "<Leader>a", rt.code_action_group.code_action_group, { buffer = bufnr })
     end,
   },
+--  inlay_hints = {
+--      right_align = true
+--  }
 })
 
 -- LSP Diagnostics Options Setup 

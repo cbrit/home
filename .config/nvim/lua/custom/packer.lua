@@ -50,4 +50,7 @@ return require('packer').startup(function(use)
     use 'hrsh7th/vim-vsnip'
     -- Terminal
     use 'voldikss/vim-floaterm'
+
+    -- Golang
+    use 'ray-x/go.nvim'
 end)

@@ -9,10 +9,10 @@ vim.keymap.set("v", "<leader>d", "\"+d")
 vim.keymap.set("n", "<leader>D", "\"+D")
 
 -- Break arrow key habit
-vim.keymap.set("n", "<up>", "<nop>")
-vim.keymap.set("n", "<down>", "<nop>")
-vim.keymap.set("n", "<left>", "<nop>")
-vim.keymap.set("n", "<right>", "<nop>")
+vim.keymap.set({"n", "v"}, "<up>", "<nop>")
+vim.keymap.set({"n", "v"}, "<down>", "<nop>")
+vim.keymap.set({"n", "v"}, "<left>", "<nop>")
+vim.keymap.set({"n", "v"}, "<right>", "<nop>")
 
 -- Keep cursor vertically centered when moving up and down
 vim.keymap.set("n", "k", "kzz")
